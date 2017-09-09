@@ -3,7 +3,8 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'cd Maritz; mvn clean install'
+                sh 'cd pushwoosh; mvn clean install'
+		sh 'cd Maritz; mvn clean install'
             }
         }
     }
