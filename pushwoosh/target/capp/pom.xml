@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.wso2.sample.pushwoosh</groupId>
+  <artifactId>pushwoosh_module</artifactId>
+  <version>1.0.0</version>
+  <packaging>pom</packaging>
+  <name>pushwoosh_module</name>
+  <description>pushwoosh_module</description>
+  <modules>
+    <module>artifacts/message-store/JMSMS</module>
+    <module>artifacts/endpoint/Pushwoosh</module>
+    <module>artifacts/proxy-service/PushwooshProxy</module>
+    <module>artifacts/sequence/replySequence</module>
+    <module>artifacts/message-processors/Processor</module>
+  </modules>
+</project>

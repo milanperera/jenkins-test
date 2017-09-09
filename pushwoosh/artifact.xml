@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><artifacts>
+    <artifact name="JMSMS" groupId="com.wso2.sample.pushwoosh.message-store" version="1.0.0" type="synapse/message-store" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-stores/JMSMS.xml</file>
+    </artifact>
+    <artifact name="Pushwoosh" groupId="com.wso2.sample.pushwoosh.endpoint" version="1.0.0" type="synapse/endpoint" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/endpoints/Pushwoosh.xml</file>
+    </artifact>
+    <artifact name="PushwooshProxy" groupId="com.wso2.sample.pushwoosh.proxy-service" version="1.0.0" type="synapse/proxy-service" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/proxy-services/PushwooshProxy.xml</file>
+    </artifact>
+    <artifact name="replySequence" groupId="com.wso2.sample.pushwoosh.sequence" version="1.0.0" type="synapse/sequence" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/sequences/replySequence.xml</file>
+    </artifact>
+    <artifact name="Processor" groupId="com.wso2.sample.pushwoosh.message-processors" version="1.0.0" type="synapse/message-processors" serverRole="EnterpriseServiceBus">
+        <file>src/main/synapse-config/message-processors/Processor.xml</file>
+    </artifact>
+</artifacts>

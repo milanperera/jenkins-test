@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<endpoint name="Pushwoosh" xmlns="http://ws.apache.org/ns/synapse">
+    <address uri="https://cp.pushwoosh.com/json/1.3/createMessage">
+        <timeout>
+            <responseAction>fault</responseAction>
+        </timeout>
+    </address>
+</endpoint>
